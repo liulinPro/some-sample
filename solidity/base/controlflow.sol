@@ -26,7 +26,8 @@ contract D {
         do {
             sum += i;
             i++;
-        } while (i < 10);
+        }
+        while (i < 10);
         return (sum);
     }
 
@@ -66,7 +67,8 @@ contract D {
                 a[j] = a[j - 1];
                 j--;
             }
-            a[j] = temp; //
+            a[j] = temp;
+            //
         }
         return (a);
     }

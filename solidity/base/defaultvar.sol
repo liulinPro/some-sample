@@ -27,5 +27,11 @@ contract defaultVar {
 
     function fi() internal {} // internal空白方程
 
-    function fe() external {} // external空白方程
+    function fe() external {} // external空白方程de
+
+    // delete操作符
+    bool public _bool2 = true;
+    function d() external {
+        delete _bool2; // delete 会让_bool2变为默认值，false
+    }
 }
